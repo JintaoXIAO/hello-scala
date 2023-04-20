@@ -24,4 +24,10 @@ lazy val catseffect = (project in file ("catseffect"))
     libraryDependencies ++= Seq(dep_cats_core, dep_cats_effect)
   )
 
+lazy val fpinscala = (project in file ("fpinscala"))
+  .settings(
+    name := "fp-in-scala"
+  )
+
+
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
