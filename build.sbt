@@ -6,12 +6,6 @@ ThisBuild / organizationName := "example"
 val dep_cats_core = "org.typelevel" %% "cats-core" % "2.9.0"
 val dep_cats_effect = "org.typelevel" %% "cats-effect" % "3.4.9"
 
-
-lazy val root = (project in file("."))
-  .settings(
-    name := "hello-scala",
-  )
-
 lazy val scalawithcats = (project in file ("scalawithcats"))
   .settings(
     name := "scala-with-cats",
@@ -28,6 +22,3 @@ lazy val fpinscala = (project in file ("fpinscala"))
   .settings(
     name := "fp-in-scala"
   )
-
-
-// See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
