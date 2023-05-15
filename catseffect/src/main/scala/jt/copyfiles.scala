@@ -27,7 +27,7 @@ object Main extends IOApp {
       amount <- Sync[F].blocking(origin.read(buffer, 0, buffer.size))
       count <-
         if(amount > -1)
-          Sync[F].blocking(destination.write(buffer, 0, amount)) >> transmit(origin, destination, buffer, acc + amount)
+          Sync[F].blocking(destination.write(buffer, 0, amount)) >> Sync[F].interruptible() >> transmit(origin, destination, buffer, acc + amount)
         else Sync[F].pure(acc)
 
     } yield count
