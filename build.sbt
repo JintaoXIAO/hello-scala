@@ -9,7 +9,8 @@ val dep_cats_effect = "org.typelevel" %% "cats-effect" % "3.4.9"
 lazy val scalawithcats = (project in file ("scalawithcats"))
   .settings(
     name := "scala-with-cats",
-    libraryDependencies += dep_cats_core
+    libraryDependencies += dep_cats_core,
+    addCompilerPlugin("org.typelevel" % "kind-projector" % "0.13.2" cross CrossVersion.full)
   )
 
 lazy val catseffect = (project in file ("catseffect"))
