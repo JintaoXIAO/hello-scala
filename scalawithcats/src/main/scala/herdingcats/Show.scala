@@ -1,4 +1,4 @@
-package jt
+package herdingcats
 
 /*
 trait Show[T] {

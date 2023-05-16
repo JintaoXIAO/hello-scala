@@ -1,4 +1,4 @@
-package jt
+package herdingcats
 
 trait FoldLeft[F[_]] {
   def foldLeft[A, B](xs: F[A], b: B, f: (B, A) => B): B

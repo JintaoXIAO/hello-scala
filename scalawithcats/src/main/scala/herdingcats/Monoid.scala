@@ -1,4 +1,4 @@
-package jt
+package herdingcats
 
 trait Monoid[A] {
   def mappend(a1: A, a2: A): A

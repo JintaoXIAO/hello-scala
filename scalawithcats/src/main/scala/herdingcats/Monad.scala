@@ -1,4 +1,4 @@
-package jt
+package herdingcats
 
 /*
 trait Monad extends FlatMap[F] with Applicative[F] {

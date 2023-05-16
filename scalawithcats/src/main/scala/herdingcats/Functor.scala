@@ -1,4 +1,4 @@
-package jt
+package herdingcats
 
 object FunctorMain extends App {
   import cats.Functor

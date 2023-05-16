@@ -1,4 +1,4 @@
-package jt
+package herdingcats
 
 object SemigroupalMain extends App {
 

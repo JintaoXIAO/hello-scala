@@ -1,4 +1,4 @@
-package jt
+package herdingcats
 
 /*
 trait FlatMap[F[_]] extends Apply[F] {

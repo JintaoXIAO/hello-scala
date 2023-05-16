@@ -1,4 +1,4 @@
-package jt
+package herdingcats
 
 sealed trait TrafficLight
 object TrafficLight {

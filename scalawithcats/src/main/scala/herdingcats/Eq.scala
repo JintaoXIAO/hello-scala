@@ -1,4 +1,4 @@
-package jt
+package herdingcats
 
 /*
 trait Eq[@specialized A] extends Any with Serializable { self =>

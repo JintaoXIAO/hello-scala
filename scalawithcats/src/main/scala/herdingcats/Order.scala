@@ -1,4 +1,4 @@
-package jt
+package herdingcats
 
 object OrderMain extends App {
   import cats._
